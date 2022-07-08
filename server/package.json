@@ -1,0 +1,25 @@
+{
+   "name": "authentication",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "devDependencies": {
+      "@types/config": "^0.0.41",
+      "@types/node": "^16.11.10",
+      "typescript": "4.5.2",
+      "ts-node": "10.7.0"
+   },
+   "dependencies": {
+      "config": "^3.3.7",
+      "dotenv": "^16.0.1",
+      "typeorm": "0.3.7",
+      "reflect-metadata": "^0.1.13",
+      "pg": "^8.4.0",
+      "express": "^4.17.2",
+      "body-parser": "^1.19.1"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   }
+}
